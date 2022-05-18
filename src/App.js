@@ -10,9 +10,10 @@ function App() {
     <Fragment>
       <Header />
       <Provider store={store}>
-        <div className="container"></div>
-        <ProductList />
-        <ProductAdd />
+        <div className="container">
+          <ProductAdd />
+          <ProductList />
+        </div>
       </Provider>
     </Fragment>
   );
