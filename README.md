@@ -2,11 +2,7 @@
 
 This is a simple React application to manage a list of products and their historical prices
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-
-## Available Scripts
+# Getting Started with mPharma Inventory
 
 ### `git clone https://github.com/agyen/mpharma-inventory.git`
 
