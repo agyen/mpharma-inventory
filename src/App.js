@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Provider store={store}>
         <div className="container"></div>
-        <ProductList />
         <ProductAdd />
+        <ProductList />
       </Provider>
     </Fragment>
   );
