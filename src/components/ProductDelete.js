@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { useDispatch } from "react-redux";
 import { deleteProduct } from "../store/productsSlice";
 import { CustomModal } from "./CustomModal";
