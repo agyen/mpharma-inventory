@@ -4,7 +4,7 @@ const initialState = {
   products: [],
 };
 
-export const productSlice = createSlice({
+export const productsSlice = createSlice({
   name: "products",
   initialState,
   reducers: {
@@ -43,6 +43,6 @@ export const {
   deleteProduct,
   addNewProductPrice,
   updateProductName,
-} = productSlice.actions;
+} = productsSlice.actions;
 
-export default productSlice.reducer;
+export default productsSlice.reducer;
