@@ -1,4 +1,4 @@
-import React, { Fragment, useContext, useEffect, useState } from "react";
+import React, { useState } from "react";
 import { v4 as uid } from "uuid";
 import { useDispatch } from "react-redux";
 import { addNewProductPrice, updateProductName } from "../store/productsSlice";
