@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Provider store={store}>
         <div className="container"></div>
+        <ProductList />
       </Provider>
     </Fragment>
   );
